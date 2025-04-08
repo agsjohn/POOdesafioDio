@@ -1,9 +1,9 @@
-# POOdesafioDio
+# desafio.desafio
 
 ### Diagrama UML (Mermaid)
 ```mermaid
 classDiagram
-    class iPhone {
+    class desafio.desafio.classes.iPhone {
         -String modelo
         -int ano
         +exibirPagina(String url)
@@ -38,7 +38,7 @@ classDiagram
         +atualizarPagina()
     }
     
-    iPhone --|> ReprodutorMusical
-    iPhone --|> AparelhoTelefonico
-    iPhone --|> NavegadorInternet
+    desafio.desafio.classes.iPhone --|> ReprodutorMusical
+    desafio.desafio.classes.iPhone --|> AparelhoTelefonico
+    desafio.desafio.classes.iPhone --|> NavegadorInternet
 ```
